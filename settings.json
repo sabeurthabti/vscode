@@ -6,5 +6,30 @@
     "**/.DS_Store": true,
     "**/node_modules": true
   },
-  "files.autoSave": "onFocusChange"
+  "search.exclude": {
+     "**/.git": true,
+     "**/node_modules": true,
+     "**/bower_components": true,
+     "**/tmp": true,
+     "**/accptance/**": true,
+     "reports/**": true,
+     "dist/**": true,
+     "**/target/**": true,
+     ".nyc_output": true,
+     "acceptance": true,
+     "build/**": true,
+     "dist/**": true,
+     ".bin/**": true,
+     ".bin/**": true,
+     "coverage/**": true,
+     ".coverage/**": true
+ },
+"files.autoSave": "onFocusChange",
+"window.zoomLevel": 0,
+"editor.scrollBeyondLastLine": false,
+"editor.fontFamily": "Operator Mono ",
+"editor.fontSize": 14,
+"editor.tabSize": 2,
+"editor.insertSpaces": false,
+"emmet.syntaxProfiles": { "javascript": "js", "attr_quotes" : "single" }
 }

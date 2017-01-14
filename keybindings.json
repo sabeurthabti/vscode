@@ -2,7 +2,57 @@
 [
     {
         "key": "cmd+shift+l",
+        "mac": "cmd+shift+l",
         "command": "editor.action.formatDocument",
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
-    }
+    },
+    {
+        "key": "cmd+shift+l",
+        "mac": "cmd+shift+l",
+        "command": "beautify.format",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+shift+x",
+        "mac": "cmd+shift+x",
+        "command": "eslint.applyAutoFix",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly",
+        "intellij": "eslint single fix"
+    },
+    {
+        "key": "cmd+shift+x",
+        "mac": "cmd+shift+x",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+shift+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+shift+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+l",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+alt-k",
+        "command": "eslint.applyAllFixes",
+        "when": "editorTextFocus"
+    },
+    {
+    "key": "shift+f6",
+    "command": "editor.action.changeAll",
+    "when": "editorTextFocus"
+  }
 ]
